@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA0000000000000000000021 /* TriggerLagReproApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0000000000000000000011 /* TriggerLagReproApp.swift */; };
+		BA0000000000000000000022 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0000000000000000000012 /* ContentView.swift */; };
+		BA0000000000000000000023 /* basics.riv in Resources */ = {isa = PBXBuildFile; fileRef = BA0000000000000000000013 /* basics.riv */; };
+		BA0000000000000000000024 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = BA0000000000000000000062 /* RiveRuntime */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA0000000000000000000011 /* TriggerLagReproApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerLagReproApp.swift; sourceTree = "<group>"; };
+		BA0000000000000000000012 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BA0000000000000000000013 /* basics.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = basics.riv; sourceTree = "<group>"; };
+		BA0000000000000000000014 /* TriggerLagRepro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriggerLagRepro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA0000000000000000000032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0000000000000000000024 /* RiveRuntime in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA0000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				BA0000000000000000000002 /* TriggerLagRepro */,
+				BA0000000000000000000005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA0000000000000000000002 /* TriggerLagRepro */ = {
+			isa = PBXGroup;
+			children = (
+				BA0000000000000000000003 /* App */,
+				BA0000000000000000000004 /* Resources */,
+			);
+			path = TriggerLagRepro;
+			sourceTree = "<group>";
+		};
+		BA0000000000000000000003 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BA0000000000000000000011 /* TriggerLagReproApp.swift */,
+				BA0000000000000000000012 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BA0000000000000000000004 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA0000000000000000000013 /* basics.riv */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BA0000000000000000000005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA0000000000000000000014 /* TriggerLagRepro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA0000000000000000000051 /* TriggerLagRepro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA0000000000000000000071 /* Build configuration list for PBXNativeTarget "TriggerLagRepro" */;
+			buildPhases = (
+				BA0000000000000000000031 /* Sources */,
+				BA0000000000000000000032 /* Frameworks */,
+				BA0000000000000000000033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TriggerLagRepro;
+			packageProductDependencies = (
+				BA0000000000000000000062 /* RiveRuntime */,
+			);
+			productName = TriggerLagRepro;
+			productReference = BA0000000000000000000014 /* TriggerLagRepro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA0000000000000000000060 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					BA0000000000000000000051 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+				};
+			};
+			buildConfigurationList = BA0000000000000000000072 /* Build configuration list for PBXProject "TriggerLagRepro" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA0000000000000000000001;
+			packageReferences = (
+				BA0000000000000000000061 /* XCRemoteSwiftPackageReference "rive-ios" */,
+			);
+			productRefGroup = BA0000000000000000000005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA0000000000000000000051 /* TriggerLagRepro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA0000000000000000000033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0000000000000000000023 /* basics.riv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA0000000000000000000031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0000000000000000000021 /* TriggerLagReproApp.swift in Sources */,
+				BA0000000000000000000022 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BA0000000000000000000081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA0000000000000000000082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BA0000000000000000000083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.triggerLagRepro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BA0000000000000000000084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.triggerLagRepro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA0000000000000000000071 /* Build configuration list for PBXNativeTarget "TriggerLagRepro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0000000000000000000083 /* Debug */,
+				BA0000000000000000000084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA0000000000000000000072 /* Build configuration list for PBXProject "TriggerLagRepro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0000000000000000000081 /* Debug */,
+				BA0000000000000000000082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BA0000000000000000000061 /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rive-app/rive-ios";
+			requirement = {
+				kind = revision;
+				revision = c91463d823d13383965100c1fb4250488816c2f9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BA0000000000000000000062 /* RiveRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA0000000000000000000061 /* XCRemoteSwiftPackageReference "rive-ios" */;
+			productName = RiveRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BA0000000000000000000060 /* Project object */;
+}
