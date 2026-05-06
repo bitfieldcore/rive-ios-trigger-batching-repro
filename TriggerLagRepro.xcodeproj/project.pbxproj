@@ -278,8 +278,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/rive-app/rive-ios";
 			requirement = {
-				kind = revision;
-				revision = c91463d823d13383965100c1fb4250488816c2f9;
+				kind = exactVersion;
+				version = 6.20.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
